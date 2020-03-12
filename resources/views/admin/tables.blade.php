@@ -65,7 +65,7 @@
             </a>
           </li>
           <li>
-            <a href="./map.html">
+            <a href="map.blade.php">
               <i class="now-ui-icons location_map-big"></i>
               <p>Maps</p>
             </a>
