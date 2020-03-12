@@ -31,3 +31,6 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
+Route::get('/admin/students', function () {
+    return view('admin.tables');
+});

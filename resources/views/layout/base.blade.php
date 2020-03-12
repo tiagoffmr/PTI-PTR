@@ -29,7 +29,7 @@
     </button>
     <a class="navbar-brand" href="#">
         <div>
-            <img src="/images/logo1.png" style="width: 150px; height: 50px;">
+            <img src="/images/logo1.png" style="width: 150px; height: 50px; z-index: 1000;">
         </div>
     </a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">

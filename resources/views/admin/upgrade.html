@@ -65,7 +65,7 @@
             </a>
           </li>
           <li>
-            <a href="./map.html">
+            <a href="map.blade.php">
               <i class="now-ui-icons location_map-big"></i>
               <p>Maps</p>
             </a>
@@ -83,7 +83,7 @@
             </a>
           </li>
           <li>
-            <a href="./tables.html">
+            <a href="tables.blade.php">
               <i class="now-ui-icons design_bullet-list-67"></i>
               <p>Table List</p>
             </a>

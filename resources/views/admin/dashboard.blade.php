@@ -1,46 +1,31 @@
-@extends('layout.base')
+@extends('admin.base')
 @section('content')
+  <div class="container" >
+    <div class="card-deck" style="margin: 5%;">
+      <div class="card col-sm" style="width: 18rem;  ">
+       {{--<img class="card-img-top" src="..." alt="Card image cap">--}}
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
 
+    <div class="card col-sm" style="width: 18rem; ; ">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
 
-  <style>
-
-
-
-    #sidebar-wrapper {
-
-      background: #2c3fb1;
-      height: 100%;
-      width: 10%;
-
-    }
-  </style>
-  <!-- Sidebar -->
-  <div id = "sidebar-wrapper">
-  <nav class="navbar navbar-dark" style="background-color: #2c3fb1;">
-
-    <!-- Links -->
-    <ul class="navbar-nav" >
-      <li class="nav-item">
-        <a class="nav-link" href="#">Students</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Professor</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Subjects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Classes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Import Data</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Permissions</a>
-      </li>
-    </ul>
-
-  </nav>
+  <div class="card col-sm" style="width: 18rem; ; ">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
-  <!-- /#sidebar-wrapper -->
+    </div>
+  </div>
 @endsection
