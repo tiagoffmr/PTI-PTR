@@ -31,6 +31,7 @@ Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
 
+<<<<<<< HEAD
 Route::get('/admin/students', function () {
     return view('admin.students');
 });
@@ -54,3 +55,5 @@ Route::get('/admin/import_data', function () {
 Route::get('/admin/permissions', function () {
     return view('admin.permissions');
 });
+=======
+>>>>>>> 76cbd033d1b66fd4c3930f4b7e8d436c04186c6d
