@@ -57,9 +57,7 @@
     </div>
 </nav>
 <style>
-    .container{
-        margin-left: 10%;
-    }
+
     #sidebar-wrapper {
 
         top: 0;
@@ -80,7 +78,10 @@
     <nav class="navbar navbar-dark " id="sidebar" style="background-color: #2c3fb1;">
 
         <!-- Links -->
-        <ul class="nav navbar-nav navbar-right pr-5 m-2 my-lg-0" >
+        <ul class="nav navbar-nav navbar-right s" >
+            <li class="nav-item">
+                <a class="nav-link" href="dashboard">Home</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="students">Students</a>
             </li>

@@ -27,7 +27,7 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function () {
+Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
 
@@ -51,6 +51,6 @@ Route::get('/admin/import_data', function () {
     return view('admin.import_data');
 });
 
-Route::get('/admin/permission', function () {
-    return view('admin.permission');
+Route::get('/admin/permissions', function () {
+    return view('admin.permissions');
 });
