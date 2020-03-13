@@ -31,26 +31,3 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
-Route::get('/admin/students', function () {
-    return view('admin.students');
-});
-
-Route::get('/admin/professors', function () {
-    return view('admin.professors');
-});
-
-Route::get('/admin/subjects', function () {
-    return view('admin.subjects');
-});
-
-Route::get('/admin/classes', function () {
-    return view('admin.classes');
-});
-
-Route::get('/admin/import_data', function () {
-    return view('admin.import_data');
-});
-
-Route::get('/admin/permission', function () {
-    return view('admin.permission');
-});
