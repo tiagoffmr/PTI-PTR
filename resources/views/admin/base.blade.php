@@ -23,7 +23,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2c3fb1;">
+<nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2c3fb1; z-index: 2;">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -67,7 +67,7 @@
         width: 10%; /* Set the width of the sidebar */
         position: fixed; /* Fixed Sidebar (stay in place on scroll) */
         background-color: #2c3fb1;
-        z-index: -1;
+        z-index: 1;
     }
     #sidebar{
         margin-top: 50% ;
@@ -77,27 +77,27 @@
 
 <!-- Sidebar -->
 <div id = "sidebar-wrapper">
-    <nav class="navbar navbar-dark" id="sidebar" style="background-color: #2c3fb1;">
+    <nav class="navbar navbar-dark " id="sidebar" style="background-color: #2c3fb1;">
 
         <!-- Links -->
-        <ul class="navbar-nav" >
+        <ul class="nav navbar-nav navbar-right pr-5 m-2 my-lg-0" >
             <li class="nav-item">
-                <a class="nav-link" href="#">Students</a>
+                <a class="nav-link" href="students">Students</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Professor</a>
+                <a class="nav-link" href="professors">Professor</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Subjects</a>
+                <a class="nav-link" href="subjects">Subjects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Classes</a>
+                <a class="nav-link" href="classes">Classes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Import Data</a>
+                <a class="nav-link" href="import_data">Import Data</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Permissions</a>
+                <a class="nav-link" href="permissions">Permissions</a>
             </li>
         </ul>
 
