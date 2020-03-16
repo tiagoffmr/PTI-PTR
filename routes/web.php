@@ -31,3 +31,6 @@ Route::get('/admin', function () {
     return view('admin.dashboard');
 });
 
+Route::get('/conteudo', function () {
+    return view('conteudo');
+});
