@@ -27,6 +27,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/horario', function () {
+    return view('horario');
+});
+
 Route::get('/admin', function () {
     return view('admin.dashboard');
 });
@@ -45,10 +49,10 @@ Route::get('/admin/professors', function () {
 Route::get('/admin/subjects', function () {
     return view('admin.subjects');
 });
+
 Route::get('/news', function () {
     return view('news');
 });
-
 
 Route::get('/admin/classes', function () {
     return view('admin.classes');
