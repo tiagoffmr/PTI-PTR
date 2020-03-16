@@ -1,3 +1,3 @@
-<p align="center"><img src="public/images/logo1.png" width="400"></p>
-Frazao cagao
+<p align="center"><img src="public/images/logo1_black.png" width="400"></p>
+
 ## About GroupX
