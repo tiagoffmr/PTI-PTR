@@ -1,40 +1,7 @@
 @extends('layout.base')
 @section('content')
     <div class="container full-height">
-        {{--        <div class="container p-4">
-                    <div class="row ">
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Segunda-Feira</div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Terça-Feira</div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Quarta-Feira</div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Quinta-Feira</div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Sexta-Feira</div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Sábado</div>
-                        <div class="col-sm-1" style="border: solid 1px black;">Domingo</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-1" style="border: solid 1px black;">8:00h-9:00h</div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-1" style="border: solid 1px black;">10:00h-11:00h</div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                        <div class="col-sm-1" style="border: solid 1px black;"></div>
-                    </div>--}}
 
-
-        {{--        </div>--}}
 
         <div class="grid-container">
             <div></div>
