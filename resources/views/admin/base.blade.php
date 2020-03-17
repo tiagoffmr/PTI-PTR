@@ -83,16 +83,7 @@
                 <a class="nav-link" href="dashboard">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="students">Students</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="professors">Professor</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="subjects">Subjects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="classes">Classes</a>
+                <a class="nav-link" href="tables">DB Tables</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="import_data">Import Data</a>
