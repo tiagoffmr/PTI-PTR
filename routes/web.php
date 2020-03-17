@@ -31,31 +31,20 @@ Route::get('/horario', function () {
     return view('horario');
 });
 
-Route::get('/admin', function () {
+Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
 
 Route::get('/conteudo', function () {
     return view('conteudo');
 });
-Route::get('/admin/students', function () {
-    return view('admin.students');
-});
 
-Route::get('/admin/professors', function () {
-    return view('admin.professors');
-});
-
-Route::get('/admin/subjects', function () {
-    return view('admin.subjects');
+Route::get('/admin/tables', function () {
+    return view('admin.tables');
 });
 
 Route::get('/news', function () {
     return view('news');
-});
-
-Route::get('/admin/classes', function () {
-    return view('admin.classes');
 });
 
 Route::get('/admin/import_data', function () {
