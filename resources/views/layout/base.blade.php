@@ -46,7 +46,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a>
                 <div class="dropdown-menu" aria-labelledby="dropdown09">
-                    <a class="dropdown-item" href="#pt"><span class="flag-icon flag-icon-pt"> </span>Portuguese</a>
+                    <a class="dropdown-item" href="#pt"><span class="flag-icon flag-icon-pt"> </span> Portuguese</a>
                 </div>
             </li>
             <li class="nav-item">
