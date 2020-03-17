@@ -29,13 +29,41 @@
                   Create
                 </a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                  <button class="dropdown-item"  type="submit"><i class="fa fa-plus" aria-hidden="true"></i> Create</button>
-                  <button class="dropdown-item"  type="submit" data-toggle="modal" data-target="#myModal"><i class="fa fa-upload" aria-hidden="true"></i> Import</button>
+                  <button class="dropdown-item"  type="submit" data-toggle="modal" data-target="#modal-2"><i class="fa fa-plus" aria-hidden="true"></i> Create</button>
+                  <button class="dropdown-item"  type="submit" data-toggle="modal" data-target="#modal-1"><i class="fa fa-upload" aria-hidden="true"></i> Import</button>
                 </div>
               </div>
 
-              <!-- Modal -->
-              <div class="modal" id="myModal" tabindex="-1" role="dialog">
+              <!-- Modal - 1 -->
+              <div class="modal" id="modal-1" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Import Students Data</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form style="margin-left: 10%; margin-right:auto; margin-bottom: 5%;margin-top: 5%;">
+                        <p>File type accepted (CSV, XLS, XLSX, XML, SQL)</p>
+                        <div class="form-group">
+                          <input type="file" class="form-control-file" id="exampleFormControlFile1" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel, .sql, .xml">
+                          <br>
+
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary">Import Data</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Modal - 2 -->
+              <div class="modal" id="modal-2" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
