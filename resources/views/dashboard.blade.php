@@ -1,17 +1,16 @@
 @extends('layout.base')
 @section('content')
-
-<div class="container-fluid">
+<div class="container-xl">
     <div class="row">
         <div class="col-sm-3">
             <div class="container bg-light mt-2 rounded full-height">
+
             </div>
         </div>
         <div class="col-sm-9">
-            <div class="container overflow-auto bg-light mt-2 pb-3 rounded">
-                <h3 class="pt-3">Dashboard</h3>
-                <div class="container overflow-auto" style="max-height: 26.5em;">
-
+            <div class="overflow-auto bg-light mt-2 pb-3 rounded">
+                <h3 class="pt-3 pl-3">Dashboard</h3>
+                <div class="container overflow-auto mw-80" >
                     <div class="container overflow-auto bg-white p-2 mt-3 rounded">
                         <h4 class="mt-2 pl-2 float-left">CSS</h4>
                         <button type="button" class="cadeira btn btn-default btn-lg float-right" id="css">
@@ -62,20 +61,21 @@
             </div>
         </div>
     </div>
-</div>
-<script>
-    $(document).ready(function(){
+ </div>
+    <script>
+        $(document).ready(function(){
 
-        $(".cadeira").click(function(){
-            id = $(this).attr('id');
-            if ($("#" + id + "-groups").hasClass( "d-none" )) {
-                $("#" + id + "-groups").removeClass( "d-none" );
-                $("#" + id).children().addClass('fa-minus').removeClass('fa-plus');
-            } else {
-                $("#" + id + "-groups").addClass( "d-none" );
-                $("#" + id).children().addClass('fa-plus').removeClass('fa-minus');
-            }
+            $(".cadeira").click(function(){
+                id = $(this).attr('id');
+                if ($("#" + id + "-groups").hasClass( "d-none" )) {
+                    $("#" + id + "-groups").removeClass( "d-none" );
+                    $("#" + id).children().addClass('fa-minus').removeClass('fa-plus');
+                } else {
+                    $("#" + id + "-groups").addClass( "d-none" );
+                    $("#" + id).children().addClass('fa-plus').removeClass('fa-minus');
+                }
+            });
         });
-    });
-</script>
+    </script>
 @endsection
+
