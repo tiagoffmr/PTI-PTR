@@ -20,7 +20,7 @@
         </div>
         <div class="col-4 h-100">
             <div class="row mt-3 mr-1" style="height: 60%;">
-                <div class="container-fluid rounded pt-2" style="background-color: #ffce52;">
+                <div class="container-fluid rounded pt-2" style="background-color: #ffce52; position: relative;">
                     <h5> Notas </h5>
                     <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="defaultChecked" checked="">
@@ -33,6 +33,45 @@
                     <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input" id="defaultChecked" checked="">
                         <label class="custom-control-label" for="defaultChecked">back-end</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm mb-2 mr-2" data-toggle="modal" data-target="#form" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;" >Nova Tarefa </button>
+                    <div class="modal fade" id="form">
+                        <div class="modal-dialog" style="margin-top: 80px; max-width: 750px;">
+                            <div class="modal-content">
+
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Nova Tarefa</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <table class="table table-hover">
+                                                <thead>
+                                                <tr>
+                                                    <th>Tarefa</th>
+                                                    <th>Responsável</th>
+                                                    <th>Início</th>
+                                                    <th>Fim</th>
+                                                    <th>Tempo Gasto</th>
+                                                    <th></th>
+                                                    <th></th>
+                                                </tr>
+                                                </thead>
+                                                <tbody id="listaTarefas">
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-sm mb-2 mr-2" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;">Adicionar Tarefa</button>>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
