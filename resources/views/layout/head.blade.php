@@ -10,8 +10,7 @@
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	<link href="storage/fontawesome-pro-5.12.0-web/css/all.css" rel="stylesheet">
+	<link href="/fontawesome-pro-5.12.0-web/css/all.css" rel="stylesheet">
 </head>
 
 @yield('navbar')
