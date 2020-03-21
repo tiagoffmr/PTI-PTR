@@ -1,16 +1,15 @@
 @extends('layout.base')
 @section('content')
 <div class="container-xl">
-    <div class="row" style="height: 90vh;">
+    <div class="row mt-2" style="height: 90vh;">
 
         <div class="col-sm-3">
-            <div class="container bg-light mt-2 rounded full-height">
-
+            <div class="container bg-light rounded h-100">
             </div>
         </div>
 
         <div class="col-sm-9">
-            <div class="overflow-auto bg-light mt-2 pb-3 rounded">
+            <div class="overflow-auto bg-light rounded h-100">
                 <h3 class="pt-3 pl-3">Dashboard</h3>
                 <div class="container overflow-auto mw-80" style="max-height: 75vh;">
 
@@ -60,7 +59,7 @@
                     </div>
 
                 </div>
-                <button type="button" class="p-2 mt-3 mr-3 btn btn-primary btn-lg float-right" style="background-color: #2c3fb1; border-color: #2c3fb1;">Cadeiras Antigas</button>
+                <button type="button" class="p-2 btn btn-primary btn-lg float-right" style="background-color: #2c3fb1; border-color: #2c3fb1; position:absolute; right: 2rem; bottom: 1rem;">Cadeiras Antigas</button>
             </div>
         </div>
     </div>
