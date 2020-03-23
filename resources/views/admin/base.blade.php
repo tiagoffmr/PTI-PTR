@@ -24,6 +24,7 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #2c3fb1; z-index: 2;">
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,11 +33,14 @@
             <img src="/images/logo1.png" style="width: 150px; height: 50px; z-index: 1000;">
         </div>
     </a>
+    <a style="margin:auto;text-align:center;color: white" disabled>Admin</a>
+
+
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
         </ul>
         <ul class="nav navbar-nav navbar-right pr-5 m-2 my-lg-0">
+
             <li class="nav-item">
                 <a class="nav-link " href="#"><i class="fa fa-bell"></i></a>
             </li>
