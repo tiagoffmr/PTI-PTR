@@ -188,29 +188,42 @@
                     <div style="border-bottom: 1px solid black; border-right: 1px solid black;"></div>
                     <div style="border-bottom: 1px solid black; border-right: 1px solid black;"></div>
                     <div style="border-bottom: 1px solid black; border-right: 1px solid black;"></div>
-                    <div></div>
-                    <div>André
-                        <span class="border bg-primary align-middle "></span>
-                    </div>
-                    <div>António
-                        <span class="border bg-success align-middle "></span>
-                    </div>
-                    <div>Diogo
-                        <span class="border bg-info align-middle "></span>
-                    </div>
-                    <div>Guilherme
-                        <span class="border bg-warning align-middle "></span>
-                    </div>
-                    <div>João
-                        <span class="border bg-danger align-middle "></span>
-                    </div>
-                    <div>Tiago
-                        <span class="border bg-secondary align-middle "></span>
-                    </div>
-                    <div>Vasco
-                        <span class="border bg-dark align-middle "></span>
+
+                </div>
+
+                <div class="container p-3">
+                    <div class="row">
+                        <div class="col-xs-3 mx-auto">
+                            André
+                            <span class="border bg-primary align-middle "></span>
+                        </div>
+                        <div class="col-xs-3 mx-auto">
+                            António
+                            <span class="border bg-success align-middle "></span>
+                        </div>
+                        <div class="col-xs-3 mx-auto">
+                            Diogo
+                            <span class="border bg-info align-middle "></span>
+                        </div>
+                        <div class="col-xs-3 mx-auto">
+                            Guilherme
+                            <span class="border bg-warning align-middle "></span>
+                        </div>
+                        <div class="col-xs-3 mx-auto">
+                            João
+                            <span class="border bg-danger align-middle "></span>
+                        </div>
+                        <div class="col-xs-3 mx-auto">
+                            Tiago
+                            <span class="border bg-secondary align-middle "></span>
+                        </div>
+                        <div class="col-xs-3 mx-auto">
+                            Vasco
+                            <span class="border bg-dark align-middle "></span>
+                        </div>
                     </div>
                 </div>
+
 
                 <style>
                     .border {
@@ -226,8 +239,8 @@
                     }
 
                     .grid-container > div {
-                        padding-top: 15px;
-                        padding-bottom: 15px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
                         text-align: center;
                         font-size: 10px;
                     }
