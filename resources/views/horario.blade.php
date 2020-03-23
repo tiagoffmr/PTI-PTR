@@ -116,10 +116,6 @@
             </div>
         </div>
 
-
-
-        </div>
-
         <style>
             .border {
                 display: inline-block;

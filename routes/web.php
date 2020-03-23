@@ -55,6 +55,6 @@ Route::get('/admin/permissions', function () {
     return view('admin.permissions');
 });
 
-Route::get('/grupos', function () {
-    return view('grupos');
+Route::get('/cadeira', function( ) {
+    return view( 'cadeira');
 });
