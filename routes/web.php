@@ -54,3 +54,7 @@ Route::get('/admin/import_data', function () {
 Route::get('/admin/permissions', function () {
     return view('admin.permissions');
 });
+
+Route::get('/cadeira', function () {
+    return view('cadeira');
+});
