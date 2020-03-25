@@ -19,6 +19,10 @@ Route::get('/login', function () {
     return view('login');
 });
 
+Route::get('/admin/', function () {
+    return view('admin.login');
+});
+
 Route::get('/grupos', function () {
     return view('grupos');
 });
