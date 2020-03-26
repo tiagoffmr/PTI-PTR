@@ -1,22 +1,7 @@
 @extends('layout.base')
 @section('content')
 
-    <nav class="navbar navbar-expand-sm bg-light navbar-light">
-    <ul class="navbar-nav" >
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-home pr-2"></i>Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-tachometer pr-2"></i>Dashboard</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fa fa-briefcase pr-2"></i>Courses</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="#"><i class="fa fa-user pr-2"></i>Profile</a>
-        </li>
-    </ul>
-    </nav>
+
 
     <div class="container m-4">
             <div class="row">
