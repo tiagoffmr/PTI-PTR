@@ -19,12 +19,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/admin/', function () {
-    return view('admin.login');
-});
-
-Route::get('/grupos', function () {
-    return view('grupos');
+Route::get('/test', function () {
+    return view('test');
 });
 
 Route::get('/welcome', function () {
@@ -59,8 +55,8 @@ Route::get('/admin/permissions', function () {
     return view('admin.permissions');
 });
 
-Route::get('/cadeira', function( ) {
-    return view( 'cadeira');
+Route::get('/dashboardProf', function () {
+    return view('dashboardProf');
 });
 
 Route::get('/profile', function( ) {
