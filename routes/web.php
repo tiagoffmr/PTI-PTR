@@ -62,3 +62,8 @@ Route::get('/dashboardProf', function () {
 Route::get('/profile', function( ) {
     return view( 'profile');
 });
+
+Route::get('/prof/projeto', function( ) {
+    return view( 'projeto_prof');
+});
+

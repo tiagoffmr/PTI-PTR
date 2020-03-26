@@ -1,7 +1,7 @@
 @extends('layout.base')
 @section('content')
 
-    <div class=" mt-3 container-xl">
+    <div class=" mt-3 container-fluid pl-5 pr-5 pb-5">
         <h3 class="pb-2">Css - Projeto 1</h3>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
@@ -14,9 +14,10 @@
                 <a class="nav-link" id="noticias-tab" data-toggle="tab" href="#noticias" role="tab" aria-controls="noticias" aria-selected="false">Noticias</a>
             </li>
         </ul>
-        <div class="tab-content" id="myTabContent">
+
+        <div class="tab-content" id="myTabContent" style="background-color: #ededed; height: 75vh; ">
             <div class=" container-xl tab-pane fade show active" id="conteudo" role="tabpanel" aria-labelledby="conteudo-tab">
-                <div class="row rounded " style="background-color: #ededed; height: 75vh;">
+                <div class="row rounded " style="background-color: #ededed; height: 75vh; ">
                     <div class="col mt-3 ml-3 rounded" style="background-color: #c6c6c6; height: 87%; position: relative;">
                         <div class="container-fluid d-flex flex-row mt-3" >
                             <div class="container text-center"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i>proj1-v1.zip</div>
