@@ -19,8 +19,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/test', function () {
-    return view('test');
+Route::get('/cadeira', function () {
+    return view('cadeira');
 });
 
 Route::get('/welcome', function () {

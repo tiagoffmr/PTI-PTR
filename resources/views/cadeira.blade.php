@@ -1,7 +1,7 @@
 @extends('layout.base')
 @section('content')
 
-    <div class=" mt-3 container-fluid pl-5 pr-5 pb-5">
+    <div class="container-fluid pl-5 pr-5 pb-2">
         <h3 class="pb-2">Css - Projeto 1</h3>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
@@ -16,13 +16,13 @@
         </ul>
 
         <div class="tab-content" id="myTabContent" style="background-color: #ededed; height: 75vh; ">
-            <div class=" container-xl tab-pane fade show active" id="conteudo" role="tabpanel" aria-labelledby="conteudo-tab">
-                <div class="row rounded " style="background-color: #ededed; height: 75vh; ">
+            <div class=" container-fluid tab-pane fade show active ml-0 mr-0" id="conteudo" role="tabpanel" aria-labelledby="conteudo-tab" style="background-color: #ededed;">
+                <div class="row rounded" style="height: 75vh;">
                     <div class="col mt-3 ml-3 rounded" style="background-color: #c6c6c6; height: 87%; position: relative;">
                         <div class="container-fluid d-flex flex-row mt-3" >
-                            <div class="container text-center"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i>proj1-v1.zip</div>
-                            <div class="container text-center"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i>proj1-v2.zip</div>
-                            <div class="container text-center"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i>proj2-v1.zip</div>
+                            <figure class="text-center mr-4"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i><figcaption>proj1-v1.zip</figcaption></figure>
+                            <figure class="text-center mr-4"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i><figcaption>proj1-v1.zip</figcaption></figure>
+                            <figure class="text-center mr-4"><i class="fas fa-folder fa-4x" style="color: #ffce52;"></i><figcaption>proj1-v1.zip</figcaption></figure>
                             <button type="submit" class="btn btn-sm mb-2 mr-2" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;">Submeter</button>
                         </div>
                     </div>
@@ -48,44 +48,6 @@
                                     <input type="checkbox" class="custom-control-input" id="defaultChecked" checked="">
                                     <label class="custom-control-label" for="defaultChecked">back-end</label>
                                 </div>
-                                <button type="submit" class="btn btn-sm mb-2 mr-2" data-toggle="modal" data-target="#form" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;" >Nova Tarefa </button>
-                                <div class="modal fade" id="form">
-                                    <div class="modal-dialog" style="margin-top: 80px; max-width: 750px;">
-                                        <div class="modal-content">
-
-                                            <div class="modal-header">
-                                                <h4 class="modal-title">Nova Tarefa</h4>
-                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            </div>
-
-                                            <div class="modal-body">
-                                                <form>
-                                                    <div class="form-group">
-                                                        <table class="table table-hover">
-                                                            <thead>
-                                                            <tr>
-                                                                <th>Tarefa</th>
-                                                                <th>Responsável</th>
-                                                                <th>Início</th>
-                                                                <th>Fim</th>
-                                                                <th>Tempo Gasto</th>
-                                                                <th></th>
-                                                                <th></th>
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody id="listaTarefas">
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
-                                                </form>
-                                            </div>
-
-                                            <div class="modal-footer">
-                                                <button type="submit" class="btn btn-sm mb-2 mr-2" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;">Adicionar Tarefa</button>>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="row mt-2 mr-1" style="height: 25%;">
@@ -95,8 +57,31 @@
                                 <button type="submit" class="btn btn-sm mr-2 mb-2" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;">Agendar</button>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-sm float-right mt-2 mr-1" style="background: #2c3fb1; color: white;">Sair do Grupo</button>
                     </div>
+                </div>
+                <div class="row rounded">
+                    <div class="container-fluid rounded mt-3 ml-3 mr-3" style="background-color: #c6c6c6;">
+                        <form>
+                            <div class="form-group">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th>Tarefa</th>
+                                        <th>Responsável</th>
+                                        <th>Início</th>
+                                        <th>Fim</th>
+                                        <th>Tempo Gasto</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="listaTarefas">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                    </div>
+                    <button type="submit" class="btn btn-sm float-right  bg-danger mt-2 mr-1" style="color: white;">Sair do Grupo</button>
                 </div>
             </div>
             <div class="tab-pane fade" id="horario" role="tabpanel" aria-labelledby="horario-tab">
@@ -248,7 +233,7 @@
                 </style>
             </div>
             <div class="tab-pane fade" id="noticias" role="tabpanel" aria-labelledby="noticias-tab">
-                <div class="container mt-2 pb-3 rounded px-5 pt-3">
+                <div class="container pb-3 rounded px-5 pt-3">
                     <div class="table-responsive">
                         <table class="table bg-white" style="text-align:center;">
                             <thead>
