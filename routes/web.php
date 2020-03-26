@@ -62,3 +62,7 @@ Route::get('/admin/permissions', function () {
 Route::get('/cadeira', function( ) {
     return view( 'cadeira');
 });
+
+Route::get('/profile', function( ) {
+    return view( 'profile');
+});
