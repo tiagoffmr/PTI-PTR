@@ -11,6 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
 	<link href="/fontawesome-pro-5.12.0-web/css/all.css" rel="stylesheet">
 	<script src='https://momentjs.com/downloads/moment-with-locales.js'></script><script  src="./script.js"></script>
+    <script type="text/javascript" src="{{ URL::to('js/tarefas.js') }}"></script>
 
 </head>
 

@@ -60,7 +60,7 @@
                     </div>
                 </div>
                 <div class="row rounded">
-                    <div class="container-fluid rounded mt-3 ml-3 mr-3" style="background-color: #c6c6c6;">
+                    <div class="container-fluid rounded mt-3 ml-3 mr-3" style="background-color: #c6c6c6; position: relative">
                         <form>
                             <div class="form-group">
                                 <table class="table table-hover">
@@ -80,6 +80,7 @@
                                 </table>
                             </div>
                         </form>
+                        <button type="submit" class="btn btn-sm mb-2 mr-2" id="adicionarTarefa" style="background: #2c3fb1; color: white; position: absolute; bottom: 0px; right: 0px;">Nova Tarefa</button>
                     </div>
                     <button type="submit" class="btn btn-sm float-right  bg-danger mt-2 mr-1" style="color: white;">Sair do Grupo</button>
                 </div>

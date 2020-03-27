@@ -1,10 +1,13 @@
 $(document).ready(function(){
 
+    $("#adicionarTarefa").click(function() {
 
-        $.each(projeto[projetoNome], function( index, item ){
+        $("#listaTarefas").append('<tr><td>' + item[0] + '</td><td><input type="text" class="form-control" id="responsavelForm' + index + '"></td><td><div style="position: relative"><input type="text" class="form-control datetimepicker-input" id="datetimepicker' + index + '" data-toggle="datetimepicker" data-target="#datetimepicker' + index + '"/><script type="text/javascript">$(function(){$("#datetimepicker' + index + '").datetimepicker({minDate: moment(), icons: {time: "fa fa-clock", date: "fa fa-calendar", up: "fa fa-arrow-up", down: "fa fa-arrow-down" }});});</script></div></td><td><input type="text" class="form-control" disabled></td><td></td><td style="text-align: center;"><button type="button" class="btn btn-success gravar1" id="' + index + '">Gravar</button></td><td style="text-align: center;"><button type="button" class="btn btn-danger apagar" id="' + index + '">Apagar</button></td></tr>');
+    })
+        /*$.each(projeto[projetoNome], function( index, item ){
             if (item[1] == null & item[2] == null & item[3] == null) {
                 /* data = moment().format("DD/MM/YYYY H:mm A");
-                console.log(data); */
+                console.log(data);
                 $("#listaTarefas").append('<tr><td>' + item[0] + '</td><td><input type="text" class="form-control" id="responsavelForm' + index + '"></td><td><div style="position: relative"><input type="text" class="form-control datetimepicker-input" id="datetimepicker' + index + '" data-toggle="datetimepicker" data-target="#datetimepicker' + index + '"/><script type="text/javascript">$(function(){$("#datetimepicker' + index + '").datetimepicker({minDate: moment(), icons: {time: "fa fa-clock", date: "fa fa-calendar", up: "fa fa-arrow-up", down: "fa fa-arrow-down" }});});</script></div></td><td><input type="text" class="form-control" disabled></td><td></td><td style="text-align: center;"><button type="button" class="btn btn-success gravar1" id="' + index + '">Gravar</button></td><td style="text-align: center;"><button type="button" class="btn btn-danger apagar" id="' + index + '">Apagar</button></td></tr>');
             } else if (item[1] !== null & item[2] !== null & item[3] == null) {
                 data = moment("DD/MM/YYYY H:mm A");
@@ -104,6 +107,6 @@ $(document).ready(function(){
             }
         });
 
-    }
+    }*/
 
 });
