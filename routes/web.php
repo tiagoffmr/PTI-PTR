@@ -11,59 +11,54 @@
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+//ROUTES ALUNOS
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/cadeira', 'StudentController@cadeira');
 
-Route::get('/cadeira', function () {
-    return view('cadeira');
-});
+Route::get('/grupos', 'StudentController@grupos');
 
+Route::get('/horario', 'StudentController@horario');
+
+Route::get('/news', 'StudentController@news');
+
+//ROUTES LOGIN
+
+Route::get('/login', 'LoginController@index');
+
+//ROUTES PROFESSORES
+
+Route::get('/projeto_prof', 'ProfessorController@index');
+
+//ROUTES ADMIN
+
+Route::get('/admin/', 'AdminController@index');
+
+Route::get('/admin/login', 'AdminController@login');
+
+Route::get('/admin/tables', 'AdminController@tables');
+
+
+//--------------------------------------------EASTER EGG FRAZAO--------------------------------------------------------
 Route::get('/welcome', function () {
     return view('welcome');
 });
+//---------------------------------------------------------------------------------------------------------------------
 
-Route::get('/horario', function () {
-    return view('horario');
-});
+//PAGES ROUTES
 
-Route::get('/admin/dashboard', function () {
-    return view('admin.dashboard');
-});
+Route::get('/', 'PagesController@index');
 
-Route::get('/conteudo', function () {
-    return view('conteudo');
-});
+Route::get('/profile', 'PagesController@profile');
 
-Route::get('/admin/tables', function () {
-    return view('admin.tables');
-});
 
-Route::get('/news', function () {
-    return view('news');
-});
-
-Route::get('/admin/import_data', function () {
-    return view('admin.import_data');
-});
-
-Route::get('/admin/permissions', function () {
-    return view('admin.permissions');
-});
 
 Route::get('/dashboardProf', function () {
     return view('dashboardProf');
 });
 
-Route::get('/profile', function( ) {
-    return view( 'profile');
+Route::get('/modal', function () {
+    return view('modal');
 });
 
-Route::get('/prof/projeto', function( ) {
-    return view( 'projeto_prof');
-});
+
 
