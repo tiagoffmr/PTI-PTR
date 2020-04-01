@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bc8c481-e489-43e9-bfbb-ecd5f64dd763" name="Default Changelist" comment="adicionar Tarefa script file">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fontawesome-pro-5.12.0-web/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/fontawesome-pro-5.12.0-web/metadata/icons.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/cadeira.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/cadeira.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/grupos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/grupos.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/horario.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/horario.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/student/news.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/profile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/projeto_prof.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/professor/projeto_prof.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfessorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfessorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Professor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Professor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_03_31_222745_create_professors_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/professor/projeto_prof.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/professor/projeto_prof.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,15 +179,15 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guisl\PTI-PTR\resources\views\admin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\drevs\FCUL\PTI-PTR\resources\views\pages" />
       <recent name="C:\Users\drevs\FCUL\PTI-PTR\resources\views\professor" />
       <recent name="C:\Users\drevs\FCUL\PTI-PTR\resources\views\login" />
       <recent name="C:\Users\drevs\FCUL\PTI-PTR\resources\views\student" />
       <recent name="C:\Users\drevs\FCUL\PTI-PTR\resources\views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\guisl\PTI-PTR\resources\views\admin" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.tarefas.js">
@@ -258,6 +240,7 @@
       <workItem from="1585568170871" duration="1847000" />
       <workItem from="1585605106773" duration="1313000" />
       <workItem from="1585688420157" duration="6876000" />
+      <workItem from="1585754488995" duration="2530000" />
     </task>
     <task id="LOCAL-00001" summary="conteudo v1">
       <created>1584378444077</created>
@@ -425,17 +408,17 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1585324632538" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585688419932">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585754490303">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585337664195" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1585754490303" />
     <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585688419932" />
     <state x="419" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584378167565" />
     <state x="419" y="55" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1584378167565" />
-    <state x="553" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585695309116">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585757045931">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1585339819389" />
+    <state x="492" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1585757045931" />
     <state x="553" y="319" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585695309116" />
     <state x="400" y="177" key="jetbrains.nodejs.interpreters-dialog" timestamp="1585326814128">
       <screen x="0" y="0" width="1366" height="738" />

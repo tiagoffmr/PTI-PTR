@@ -16,8 +16,8 @@ class ProfessorController extends Controller
      */
     public function index()
     {
-        return Professor::all();
-        return view('professor.projeto_prof');
+        $data =  Professor::all();
+        return view('professor.projeto_prof')->with('data', $data);
     }
 
     /**

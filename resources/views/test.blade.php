@@ -19,6 +19,7 @@
     <div class="container">
 
                 @yield('navbar')
+        <?php phpinfo(); ?>
     </div>
     </body>
 </html>

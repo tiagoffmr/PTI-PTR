@@ -56,6 +56,7 @@ Route::get('/dashboardProf', function () {
     return view('dashboardProf');
 });
 
+
 Route::get('/modal', function () {
     return view('modal');
 });

@@ -71,6 +71,16 @@
                         <h3 class="pt-3 pl-3">Ficheiros</h3>
                         <p>Enunciado v1</p>
                         <p>Enunciado v2</p>
+                        @if (count($data) > 0)
+                            @foreach($data as $post)
+                                <div>
+                                    <h3>{{$post->Nome}}</h3>
+                                </div>
+                            @endforeach
+                        @else
+                            <p>No posts found</p>
+                        @endif
+
                         <button type="button" class="p-2 btn btn-primary btn-lg float-right" style="background-color: #2c3fb1; border-color: #2c3fb1; position:absolute; right: 2rem; bottom: 1rem;">Upload Ficheiros</button>
 
                     </div>
